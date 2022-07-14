@@ -1,0 +1,24 @@
+{
+  "name": "multifndemo",
+  "version": "1.0.0",
+  "description": "Demo of multiple functions calling each other",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.6.7",
+    "@opentelemetry/api": "^1.1.0",
+    "@opentelemetry/exporter-trace-otlp-grpc": "^0.28.0",
+    "@opentelemetry/instrumentation": "^0.28.0",
+    "@opentelemetry/resources": "^1.2.0",
+    "@opentelemetry/sdk-trace-base": "^1.2.0",
+    "@opentelemetry/sdk-trace-node": "^1.2.0",
+    "@opentelemetry/semantic-conventions": "^1.2.0",
+    "axios": "^0.27.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.3.3",
+    "opentelemetry-instrumentation-mongoose": "^0.27.1",
+    "uuid": "^8.3.2"
+  }
+}
